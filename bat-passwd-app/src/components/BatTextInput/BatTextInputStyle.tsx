@@ -1,5 +1,15 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
-    container: {}
+  inputer: {
+    width: "100%",
+    backgroundColor: "#E5BF3C",
+    color: "black",
+    fontSize: 20,
+    height: 45,
+    borderWidth: 1,
+    borderRadius: 7,
+    padding: 10,
+    textAlign: "center",
+  },
 });
